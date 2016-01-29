@@ -3,17 +3,59 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Shawnxrx&#39;s Blog</title>
+  <title>使用Hexo和githhub pages快速搭建个人博客 | Shawnxrx&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Shawnxrx's Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="最近想学着搭建一个个人博客，网上参考了一些资料，发现hexo+github pages这种方案比较流行，就试着弄了一个，现在把搭建过程做个记录。
+Hexo hexo是一款基于Node.js的静态博客框架。能够快速的构建和发布个人博客，同时支持markdown，插件丰富，功能强大。 hexo官网
+环境配置
+安装node.jshexo是基于node.js的。首先下载node.js并安装。node.js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo和githhub pages快速搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/2016/01/29/buildPersonalBlog/index.html">
 <meta property="og:site_name" content="Shawnxrx's Blog">
-<meta property="og:description">
+<meta property="og:description" content="最近想学着搭建一个个人博客，网上参考了一些资料，发现hexo+github pages这种方案比较流行，就试着弄了一个，现在把搭建过程做个记录。
+Hexo hexo是一款基于Node.js的静态博客框架。能够快速的构建和发布个人博客，同时支持markdown，插件丰富，功能强大。 hexo官网
+环境配置
+安装node.jshexo是基于node.js的。首先下载node.js并安装。node.js">
+<meta property="og:image" content="http://img.blog.csdn.net/20160124233545911">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125001151898">
+<meta property="og:image" content="http://img.blog.csdn.net/20160124235728300">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125001319716">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125001514778">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125002333408">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125002809910">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125003114241">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125112542408">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125112817971">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125120229814">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125121912587">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125120515894">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125122100509">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125122814505">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125122857256">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125123016028">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125140836984">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125141438305">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125141818856">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125142205501">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125142610465">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125223417072">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125223431801">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125225529615">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125230643815">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125231433015">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125232353119">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125234811144">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125234838203">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125235324177">
+<meta property="og:image" content="http://img.blog.csdn.net/20160125235528476">
+<meta property="og:updated_time" content="2016-01-29T08:06:42.774Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Shawnxrx's Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="使用Hexo和githhub pages快速搭建个人博客">
+<meta name="twitter:description" content="最近想学着搭建一个个人博客，网上参考了一些资料，发现hexo+github pages这种方案比较流行，就试着弄了一个，现在把搭建过程做个记录。
+Hexo hexo是一款基于Node.js的静态博客框架。能够快速的构建和发布个人博客，同时支持markdown，插件丰富，功能强大。 hexo官网
+环境配置
+安装node.jshexo是基于node.js的。首先下载node.js并安装。node.js">
   
     <link rel="alternative" href="/atom.xml" title="Shawnxrx&#39;s Blog" type="application/atom+xml">
   
@@ -63,9 +105,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-buildPersonalBlog" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-buildPersonalBlog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/01/29/buildPersonalBlog/" class="article-date">
   <time datetime="2016-01-29T07:58:42.000Z" itemprop="datePublished">2016-01-29</time>
@@ -78,8 +118,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/29/buildPersonalBlog/">使用Hexo和githhub pages快速搭建个人博客</a>
+    <h1 class="article-title" itemprop="name">
+      使用Hexo和githhub pages快速搭建个人博客
     </h1>
   
 
@@ -217,96 +257,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="second-post" class="article article-type-second" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/01/26/post/" class="article-date">
-  <time datetime="2016-01-25T16:22:26.000Z" itemprop="datePublished">2016-01-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/26/post/">myfirstpost</a>
-    </h1>
+    <a href="/2016/01/26/post/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">myfirstpost</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="http://i.imgur.com/K3mrx0f.jpg" alt=""></p>
-<p><img src="http://i.imgur.com/mTWZGPt.jpg" alt=""></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/26/post/" data-id="cijzfl6mj0003ismbw5se1tlk" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
 
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/01/26/hello-world/" class="article-date">
-  <time datetime="2016-01-25T16:10:25.352Z" itemprop="datePublished">2016-01-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/26/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/26/hello-world/" data-id="cijzfl6mm0006ismbthp8bn9y" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-  
 </section>
         
           <aside id="sidebar">
